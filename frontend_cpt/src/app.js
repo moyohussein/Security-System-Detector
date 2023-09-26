@@ -1,6 +1,6 @@
 import { useState } from "react";
-import MainPage from "./main";
-import DetailsPage from "./details";
+import MainPage from "./components/Main/main";
+import DetailsPage from "./components/Details/details";
 
 const MAIN_PAGE = "main";
 const DETAILS_PAGE = "details_page";

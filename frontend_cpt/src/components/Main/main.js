@@ -1,6 +1,6 @@
-import "./Main.css";
+import "./main.css";
+import Log from "../Logging/logging";
 import { useEffect, useState } from "react";
-import Log from "./Log";
 
 const API_BASE = "http://127.0.0.1:5000";
 

@@ -1,7 +1,7 @@
 import "./log.css";
 import { useRef, useEffect } from "react";
 
-function Log({ onClick, url, date }) {
+export function Log({ onClick, url, date }) {
 	const videoRef = useRef(null);
 	const canvasRef = useRef(null);
 
